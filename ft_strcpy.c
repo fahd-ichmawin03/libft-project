@@ -7,5 +7,6 @@ char *ft_strcpy(char *dst, char *src)
         dst[i] = src[i];
         i++;
     }
+    dst[i] = '\0';
     return dst;
 }
