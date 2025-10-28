@@ -6,7 +6,7 @@
 /*   By: fichmawi <fichmawi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 11:18:13 by fichmawi          #+#    #+#             */
-/*   Updated: 2025/10/27 22:59:03 by fichmawi         ###   ########.fr       */
+/*   Updated: 2025/10/28 18:14:48 by fichmawi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memset(void *ptr, int x, size_t len)
 	i = 0;
 	while (i < len)
 	{
-		*(p + i) = x;
+		*(p + i) = (unsigned char)x;
 		i++;
 	}
 	return (ptr);
